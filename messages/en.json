@@ -1,0 +1,13 @@
+{
+  "Layout": {
+    "about": "About Sleepi",
+    "recomendations": "Recomendations",
+    "contacts": "Contacts",
+    "additional": "Additionl reading",
+    "loading": "Loading..."
+  },
+  "NotFound": {
+    "heading": "Something went wrong!",
+    "link": "Go back to the home page"
+  }
+}
