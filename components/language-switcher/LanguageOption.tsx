@@ -14,7 +14,10 @@ export const LanguageOption: FC<Props> = ({
   secondSymbol,
   onClick,
 }) => (
-  <div className="flex items-center gap-1 mt-[2px]" onClick={onClick}>
+  <div
+    className="flex items-center gap-1 mt-[2px] cursor-pointer"
+    onClick={onClick}
+  >
     <span>{title}</span>
     <div>
       <Emoji symbol={firstSymbol} label="country icon" />

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function NotFount() {
+export default function NotFound() {
   return (
     <html>
       <body className="h-screen w-full flex flex-col m-0 p-0">
