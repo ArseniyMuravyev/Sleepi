@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 
 export default function Loading() {
-  const t = useTranslations();
+  const t = useTranslations("Layout");
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center gap-2">
       <svg
@@ -111,7 +111,7 @@ export default function Loading() {
           ></path>
         </g>
       </svg>
-      <h1 className="font-bold text-2xl md:text-4xl">{t("Layout.loading")}</h1>
+      <h1 className="font-bold text-2xl md:text-4xl">{t("loading")}</h1>
     </div>
   );
 }

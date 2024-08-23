@@ -1,13 +1,28 @@
 {
   "Layout": {
     "about": "About Sleepi",
-    "recomendations": "Recomendations",
+    "recomendations": "Recommendations",
     "contacts": "Contacts",
-    "additional": "Additionl reading",
-    "loading": "Loading..."
+    "additional": "Additional reading",
+    "loading": "Loading...",
+    "studies": "Studies"
   },
   "NotFound": {
     "heading": "Something went wrong!",
     "link": "Go back to the home page"
+  },
+  "Contacts": {
+    "heading": "Sign up to receive weekly interesting facts and tips about sleep!"
+  },
+  "Recomendations": {
+    "consistency": "Consistency",
+    "temperature": "Temperature",
+    "light": "Light",
+    "caffeine": "Caffeine",
+    "association": "Association",
+    "alcohol": "Alcohol"
+  },
+  "Consistency": {
+    "main": "Consistency is one of the most important things about sleep. It can lower the risk of death by up to 40%! If you can only improve one aspect of sleep, let it be consistency. Matthew Walker, author of the world bestseller \"Why We Sleep?\", says: \"Regularity is king! And when you anchor your sleep [to a specific time], you will improve both the quantity and quality of that sleep.\""
   }
 }

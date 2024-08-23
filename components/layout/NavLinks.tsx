@@ -8,7 +8,7 @@ type Props = {
 };
 
 export const NavLinks: FC<Props> = ({ className }) => {
-  const t = useTranslations();
+  const t = useTranslations("Layout");
   return (
     <nav
       className={clsx(
@@ -16,10 +16,10 @@ export const NavLinks: FC<Props> = ({ className }) => {
         className,
       )}
     >
-      <Link href="#about">{t("Layout.about")}</Link>
-      <Link href="#recomendations">{t("Layout.recomendations")}</Link>
-      <Link href="#contacts">{t("Layout.contacts")}</Link>
-      <Link href="#additional-reading">{t("Layout.additional")}</Link>
+      <Link href="#about">{t("about")}</Link>
+      <Link href="#recomendations">{t("recomendations")}</Link>
+      <Link href="#contacts">{t("contacts")}</Link>
+      <Link href="#additional-reading">{t("additional")}</Link>
     </nav>
   );
 };

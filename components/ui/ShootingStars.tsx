@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { useEffect, useState, useRef, FC, ReactNode } from "react";
+import { useEffect, useState, useRef, FC } from "react";
 
 type ShootingStar = {
   id: number;
@@ -119,7 +119,7 @@ export const ShootingStars: FC<Props> = ({
   return (
     <svg
       ref={svgRef}
-      className={cn("w-full h-full absolute inset-0", className)}
+      className={cn("w-full h-full absolute inset-0 z-[-1]", className)}
     >
       {star && (
         <rect

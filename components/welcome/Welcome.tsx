@@ -1,9 +1,20 @@
 import { FC } from "react";
+import { Compare } from "@/components/ui/Compare";
 
 export const Welcome: FC = () => {
   return (
-    <section id="welcome">
-      <h1>Hello world</h1>
+    <section id="welcome" className="section">
+      <h2 className="heading">Welcome</h2>
+      <div className="rounded-3xl border border-neutral-800 w-full md:w-[80%] flex justify-center items-center md:max-w-[700px]">
+        <Compare
+          firstImage="/images/before.jpg"
+          secondImage="/images/after.png"
+          firstImageClassName="object-cover object-top"
+          secondImageClassname="object-cover object-top"
+          className="h-[400px] w-full md:h-[500px] md:max-w-[700px]"
+          slideMode="hover"
+        />
+      </div>
     </section>
   );
 };

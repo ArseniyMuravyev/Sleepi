@@ -1,4 +1,4 @@
-import { FC, memo } from "react";
+import { FC } from "react";
 
 type Props = {
   className?: string;
@@ -6,8 +6,8 @@ type Props = {
   symbol: string;
 };
 
-export const Emoji: FC<Props> = memo(({ className, label, symbol }) => (
+export const Emoji: FC<Props> = ({ className, label, symbol }) => (
   <span className={className} role="img" aria-label={label}>
     {String.fromCodePoint(symbol)}
   </span>
-));
+);

@@ -3,17 +3,12 @@ import { Footer } from "@/components/layout/Footer";
 import { StarsBackground } from "@/components/ui/StarsBackground";
 import { ShootingStars } from "@/components/ui/ShootingStars";
 import { Navbar } from "@/components/layout/NavBar";
-import { getMessages } from "next-intl/server";
-import { nunito } from "@/fonts";
+import { getLocale, getMessages } from "next-intl/server";
 import "@/styles/globals.css";
-import clsx from "clsx";
 import { NextIntlClientProvider } from "next-intl";
 
 type Props = {
   children: React.ReactNode;
-  params: {
-    locale: string;
-  };
 };
 
 export const metadata: Metadata = {
@@ -21,11 +16,9 @@ export const metadata: Metadata = {
   description: "Optimize your sleep for better life",
 };
 
-export default async function RootLayout({
-  children,
-  params: { locale },
-}: Readonly<Props>) {
+export default async function RootLayout({ children }: Readonly<Props>) {
   const messages = await getMessages();
+  const locale = await getLocale();
 
   return (
     <html lang={locale} className="scroll-smooth">
