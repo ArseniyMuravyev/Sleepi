@@ -9,3 +9,8 @@ export type RecomendationsCard = {
   content: string;
   links: Link[];
 };
+
+export type GlossaryWord = {
+  title: string;
+  definition: string;
+};

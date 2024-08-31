@@ -1,10 +1,10 @@
 import { FC } from "react";
 import { Compare } from "@/components/ui/Compare";
+import { Section } from "../common/Section";
 
 export const Welcome: FC = () => {
   return (
-    <section id="welcome" className="section">
-      <h2 className="heading">Welcome</h2>
+    <Section id="welcome">
       <div className="rounded-3xl border border-neutral-800 w-full md:w-[80%] flex justify-center items-center md:max-w-[700px]">
         <Compare
           firstImage="/images/before.jpg"
@@ -15,6 +15,6 @@ export const Welcome: FC = () => {
           slideMode="hover"
         />
       </div>
-    </section>
+    </Section>
   );
 };

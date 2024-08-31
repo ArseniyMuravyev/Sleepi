@@ -38,7 +38,7 @@ export const Navbar: FC<Props> = ({ className }) => {
         <div
           className={cn(
             "max-h-0 overflow-hidden transition-[max-height] duration-300 flex-col gap-16 ease-linear",
-            { ["max-h-[360px]"]: isActive },
+            { ["max-h-[420px]"]: isActive },
           )}
         >
           <NavLinks className="flex-col mt-6" />

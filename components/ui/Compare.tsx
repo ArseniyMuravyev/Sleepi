@@ -14,6 +14,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { IconDotsVertical } from "@tabler/icons-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface CompareProps {
   firstImage?: string;
@@ -157,6 +158,8 @@ export const Compare = ({
     [handleMove, autoplay],
   );
 
+  const t = useTranslations("Layout");
+
   return (
     <div
       ref={sliderRef}
@@ -226,6 +229,9 @@ export const Compare = ({
                 )}
                 draggable={false}
               />
+              <p className="text-2xl md:text-3xl text-white font-bold z-[20] absolute bottom-2 left-4">
+                {t("before")}
+              </p>
             </motion.div>
           ) : null}
         </AnimatePresence>
@@ -233,15 +239,20 @@ export const Compare = ({
 
       <AnimatePresence initial={false}>
         {secondImage ? (
-          <motion.img
-            className={cn(
-              "absolute top-0 left-0 z-[19]  rounded-2xl w-full h-full select-none",
-              secondImageClassname,
-            )}
-            alt="second image"
-            src={secondImage}
-            draggable={false}
-          />
+          <>
+            <motion.img
+              className={cn(
+                "absolute top-0 left-0 z-[19]  rounded-2xl w-full h-full select-none",
+                secondImageClassname,
+              )}
+              alt="second image"
+              src={secondImage}
+              draggable={false}
+            />
+            <p className="text-2xl md:text-3xl text-white font-bold z-[19] absolute bottom-2 right-4">
+              {t("after")}
+            </p>
+          </>
         ) : null}
       </AnimatePresence>
     </div>

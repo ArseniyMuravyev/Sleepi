@@ -3,6 +3,8 @@
 import axios from "axios";
 import { useTranslations } from "next-intl";
 import { ChangeEvent, FC, SyntheticEvent, useState } from "react";
+import { Section } from "../common/Section";
+import { Heading } from "../common/Heading";
 
 export const Contacts: FC = () => {
   const t = useTranslations("Contacts");
@@ -22,8 +24,8 @@ export const Contacts: FC = () => {
   };
 
   return (
-    <section id="contacts" className="section">
-      <h2 className="heading">{t("heading")}</h2>
+    <Section id="contacts">
+      <Heading type="h2">contacts</Heading>
       <form
         onSubmit={handleSubmit}
         className="flex items-center justify-center mt-8: md:mt-16 border border-[rgba(192,206,255,0.102)] bg-transparent rounded-xl"
@@ -39,6 +41,6 @@ export const Contacts: FC = () => {
           Submit
         </button>
       </form>
-    </section>
+    </Section>
   );
 };

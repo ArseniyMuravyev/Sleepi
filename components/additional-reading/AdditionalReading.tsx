@@ -1,11 +1,11 @@
-import { useTranslations } from "next-intl";
 import { FC } from "react";
+import { Section } from "../common/Section";
+import { Heading } from "../common/Heading";
 
 export const AdditionlReading: FC = () => {
-  const t = useTranslations("Layout");
   return (
-    <section id="additional-reading" className="section">
-      <h2 className="heading">{t("additional")}</h2>
-    </section>
+    <Section id="additional-reading">
+      <Heading type="h2">additional</Heading>
+    </Section>
   );
 };
