@@ -54,5 +54,36 @@
   "Melatonin": {
     "title": "Melatonin - ",
     "definition": "\"hormone of sleep\", regulator of the circadian rhythm of all living organisms"
+  },
+  "Fahrenheit": {
+    "title": "Fahrenheit - ",
+    "definition": "A scale of temperature on which water freezes at 32° and boils at 212° under standard conditions. To convert to the usual degrees Celsius, you need to: subtract 32 from the original number, multiply it by 5 and divide by 9. For example, the value 341°F corresponds to (341-32)*5/9 ≈ 171.66°C"
+  },
+  "Caffeine": {
+    "title": "Caffeine - ",
+    "definition": "is a substance found in coffee, right? Not exactly. Yes, caffeine is an alkaloid compound which is found especially in coffee plants and is a stimulant of the central nervous system. But caffeine is found not only in coffee, but also in: cocoa, many types of tea, Coca-Cola and even milk chocolate"
+  },
+  "About": {
+    "main": "We've all heard that you need to sleep for 8 hours to get enough sleep. This is partly true, partly a myth. Most likely, everyone has come across the fact that after a long sleep you still feel tired and drowsy. Sleepi is made to help you cope with this problem. Here are the best recommendations for improving the quality of sleep, because it plays a huge role in your well-being after waking up. I can guarantee that if you follow the tips given below, your sleep will improve many times, as well as your well-being."
+  },
+  "Matthew": {
+    "author": "Why we sleep by Matthew Walker",
+    "description": " - is definitely my favorite book about sleep. Matthew Walker is Professor of Neuroscience and Psychology at the University of California, Berkeley, and Founder and Director of the Center for Human Sleep Science.",
+    "link": "https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316"
+  },
+  "Ted": {
+    "author": "Matthew Walker TED Talks",
+    "description": " - is a very good speech on the importance of qualitative sleep",
+    "link": "bhttps://www.ted.com/talks/matt_walker_sleep_is_your_superpower?subtitle=en"
+  },
+  "Podcast": {
+    "author": "Matthew Walker & Andrew Huberman",
+    "description": " - if you don't like reading and prefer podcast I highly recommend you listening to the podcast of Matthew Walker and Andrew Huberman. Andrew Huberman is a neuroscientist and tenured professor in the department of neurobiology, and by courtesy, psychiatry and behavioral sciences at Stanford School of Medicine. He is a founder of The Huberman Lab podcast, which I also recommend to check out. This is a series of 6 podcasts in which the topic of sleep is revealed in great detail",
+    "link": "https://www.youtube.com/watch?v=-OBCwiPPfEU&list=PLPNW_gerXa4OoypUEgZI7uouI12WZrxeS"
+  },
+  "Site": {
+    "author": "Sleep Foundation",
+    "description": " - is a great site, where i found lots of useful information for the list of recommendations. There are much more interesting facts about sleep that's why I couldn't recommend it to you",
+    "link": "https://www.sleepfoundation.org/"
   }
 }

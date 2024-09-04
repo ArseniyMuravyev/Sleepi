@@ -48,7 +48,7 @@ export const LanguageSwitcher: FC = () => {
       </div>
       <div
         className={clsx(
-          "absolute top-full left-0 w-full overflow-hidden flex flex-col items-center gap-4 pb-0 max-h-0 bg-[#18142d] pl-6",
+          "absolute top-full left-0 w-full overflow-hidden flex flex-col items-center gap-4 pb-0 max-h-0 bg-[#18142d] pl-10",
           { ["max-h-[300px] rounded-b-3xl pb-3"]: isActive },
         )}
       >

@@ -1,4 +1,4 @@
-import { RecomendationsCard, GlossaryWord } from "@/types";
+import { RecomendationsCard, Reading, GlossaryWord } from "@/types";
 
 export const recomendationsCards: RecomendationsCard[] = [
   {
@@ -117,5 +117,36 @@ export const glossaryWords: GlossaryWord[] = [
   {
     title: "Melatonin.title",
     definition: "Melatonin.definition",
+  },
+  {
+    title: "Fahrenheit.title",
+    definition: "Fahrenheit.definition",
+  },
+  {
+    title: "Caffeine.title",
+    definition: "Caffeine.definition",
+  },
+];
+
+export const reading: Reading[] = [
+  {
+    title: "Matthew.author",
+    description: "Matthew.description",
+    link: "Matthew.link",
+  },
+  {
+    title: "Ted.author",
+    description: "Ted.description",
+    link: "Ted.link",
+  },
+  {
+    title: "Podcast.author",
+    description: "Podcast.description",
+    link: "Podcast.link",
+  },
+  {
+    title: "Site.author",
+    description: "Site.description",
+    link: "Site.link",
   },
 ];

@@ -14,3 +14,9 @@ export type GlossaryWord = {
   title: string;
   definition: string;
 };
+
+export type Reading = {
+  title: string;
+  description: string;
+  link: string;
+};
