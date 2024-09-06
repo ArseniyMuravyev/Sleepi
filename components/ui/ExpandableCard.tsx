@@ -7,7 +7,7 @@ import { useOutsideClick } from "@/hooks/useOutsideClick";
 import { recomendationsCards } from "@/data";
 import { useTranslations } from "next-intl";
 
-export function ExpandableCardDemo() {
+export function ExpandableCard() {
   const t = useTranslations();
   const [active, setActive] = useState<
     (typeof recomendationsCards)[number] | boolean | null
@@ -105,6 +105,7 @@ export function ExpandableCardDemo() {
                     className="text-neutral-300 text-md md:text-lg lg:text-base h-full md:h-fit pb-4 flex flex-col items-start gap-4"
                   >
                     <p>{t(active.content)}</p>
+                    {active.post && <p>{t(active.post)}</p>}
                   </motion.div>
                 </div>
                 <div className="flex justify-center items-start p-4">

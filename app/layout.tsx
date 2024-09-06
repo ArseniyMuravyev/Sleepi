@@ -4,8 +4,8 @@ import { StarsBackground } from "@/components/ui/StarsBackground";
 import { ShootingStars } from "@/components/ui/ShootingStars";
 import { Navbar } from "@/components/layout/NavBar";
 import { getLocale, getMessages } from "next-intl/server";
-import "@/styles/globals.css";
 import { NextIntlClientProvider } from "next-intl";
+import "@/styles/globals.css";
 
 type Props = {
   children: React.ReactNode;

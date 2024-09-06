@@ -7,6 +7,7 @@ export type RecomendationsCard = {
   title: string;
   src: string;
   content: string;
+  post?: string;
   links: Link[];
 };
 

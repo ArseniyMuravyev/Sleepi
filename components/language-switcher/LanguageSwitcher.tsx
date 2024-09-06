@@ -19,6 +19,7 @@ export const LanguageSwitcher: FC = () => {
     let local = isEnglish ? "ru" : "en";
     startTransition(() => {
       router.replace(`/${local}`);
+      router.refresh();
     });
   };
 

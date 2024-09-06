@@ -17,10 +17,9 @@ export const NavLinks: FC<Props> = ({ className }) => {
       )}
     >
       <Link href="#about">{t("about")}</Link>
-      <Link href="#recomendations">{t("recomendations")}</Link>
-      <Link href="#contacts">{t("contacts")}</Link>
-      <Link href="#additional-reading">{t("additional")}</Link>
       <Link href="#glossary">{t("glossary")}</Link>
+      <Link href="#recomendations">{t("recomendations")}</Link>
+      <Link href="#additional-reading">{t("additional")}</Link>
     </nav>
   );
 };

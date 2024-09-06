@@ -21,6 +21,46 @@ export const recomendationsCards: RecomendationsCard[] = [
     ],
   },
   {
+    title: "Recomendations.phases",
+    src: "/images/phases.svg",
+    content: "Phases.main",
+    post: "Phases.post",
+    links: [
+      {
+        title: "academic.oup.com",
+        link: "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
+      },
+      {
+        title: "usatoday.com",
+        link: "https://www.usatoday.com/story/news/health/2024/01/18/consistent-sleep-more-important-than-eight-hours/72273899007/",
+      },
+      {
+        title: "health.com",
+        link: "https://www.health.com/regular-sleep-schedule-lower-mortality-risk-8413749",
+      },
+    ],
+  },
+
+  {
+    title: "Recomendations.duration",
+    src: "/images/duration.svg",
+    content: "Duration.main",
+    links: [
+      {
+        title: "sleepfoundation.org",
+        link: "https://www.sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need",
+      },
+      {
+        title: "National Library of Medicine",
+        link: "https://pubmed.ncbi.nlm.nih.gov/33054337/",
+      },
+      {
+        title: "health.com",
+        link: "https://www.health.com/regular-sleep-schedule-lower-mortality-risk-8413749",
+      },
+    ],
+  },
+  {
     title: "Recomendations.temperature",
     src: "/images/temperature.svg",
     content: "Temperature.main",
@@ -45,7 +85,7 @@ export const recomendationsCards: RecomendationsCard[] = [
     content: "Light.main",
     links: [
       {
-        title: "sleepfoundations.org",
+        title: "sleepfoundation.org",
         link: "https://www.sleepfoundation.org/bedroom-environment/light-and-sleep",
       },
       {
@@ -64,7 +104,7 @@ export const recomendationsCards: RecomendationsCard[] = [
     content: "Caffeine.main",
     links: [
       {
-        title: "sleepfoundations.org",
+        title: "sleepfoundation.org",
         link: "https://www.sleepfoundation.org/nutrition/caffeine-and-sleep",
       },
       {
@@ -83,7 +123,7 @@ export const recomendationsCards: RecomendationsCard[] = [
     content: "Alcohol.main",
     links: [
       {
-        title: "sleepfoundations.org",
+        title: "sleepfoundation.org",
         link: "https://www.sleepfoundation.org/nutrition/alcohol-and-sleep",
       },
       {
@@ -125,6 +165,10 @@ export const glossaryWords: GlossaryWord[] = [
   {
     title: "Caffeine.title",
     definition: "Caffeine.definition",
+  },
+  {
+    title: "Phases.title",
+    definition: "Phases.definition",
   },
 ];
 
