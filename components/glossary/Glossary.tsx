@@ -5,7 +5,7 @@ import { WordsList } from "./WordsList";
 
 export const Glossary: FC = () => {
   return (
-    <Section id="section">
+    <Section id="glossary">
       <Heading type="h2">glossary</Heading>
       <WordsList />
     </Section>
