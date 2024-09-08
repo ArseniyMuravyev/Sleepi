@@ -5,6 +5,7 @@ import { ShootingStars } from "@/components/ui/ShootingStars";
 import { Navbar } from "@/components/layout/NavBar";
 import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import { Analytics } from "@vercel/analytics/react";
 import "@/styles/globals.css";
 
 type Props = {
@@ -29,6 +30,7 @@ export default async function RootLayout({ children }: Readonly<Props>) {
           <StarsBackground />
           {children}
           <Footer />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
