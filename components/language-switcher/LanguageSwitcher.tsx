@@ -41,11 +41,7 @@ export const LanguageSwitcher: FC = () => {
         >
           <Image src="/icons/arrow.svg" alt="arrow icon" fill />
         </div>
-        <LanguageOption
-          title={isEnglish ? "English" : "Русский"}
-          firstSymbol={isEnglish ? "0x1F1EC" : "0x1F1F7"}
-          secondSymbol={isEnglish ? "0x1F1E7" : "0x1F1FA"}
-        />
+        <LanguageOption title={isEnglish ? "English" : "Русский"} />
       </div>
       <div
         className={clsx(
@@ -55,8 +51,6 @@ export const LanguageSwitcher: FC = () => {
       >
         <LanguageOption
           title={isEnglish ? "Русский" : "English"}
-          firstSymbol={isEnglish ? "0x1F1F7" : "0x1F1EC"}
-          secondSymbol={isEnglish ? "0x1F1FA" : "0x1F1E7"}
           onClick={handleChange}
         />
       </div>
