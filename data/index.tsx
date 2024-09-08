@@ -136,17 +136,17 @@ export const recomendationsCards: RecomendationsCard[] = [
       },
     ],
   },
-  {
-    title: "Recomendations.association",
-    src: "/images/association.svg",
-    content: "Association.main",
-    links: [
-      {
-        title: "realsimple.com",
-        link: "https://www.realsimple.com/three-things-in-bed-for-better-sleep-8584271",
-      },
-    ],
-  },
+  //{
+  //  title: "Recomendations.association",
+  //  src: "/images/association.svg",
+  //  content: "Association.main",
+  //  links: [
+  //    {
+  //      title: "realsimple.com",
+  //      link: "https://www.realsimple.com/three-things-in-bed-for-better-sleep-8584271",
+  //    },
+  //  ],
+  //},
 ];
 
 export const glossaryWords: GlossaryWord[] = [
@@ -169,6 +169,10 @@ export const glossaryWords: GlossaryWord[] = [
   {
     title: "Phases.title",
     definition: "Phases.definition",
+  },
+  {
+    title: "Lux.title",
+    definition: "Lux.definition",
   },
 ];
 
