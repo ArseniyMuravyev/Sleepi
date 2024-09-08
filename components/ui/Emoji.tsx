@@ -8,6 +8,6 @@ type Props = {
 
 export const Emoji: FC<Props> = ({ className, label, symbol }) => (
   <span className={className} role="img" aria-label={label}>
-    {String.fromCodePoint(symbol)}
+    {String.fromCodePoint(Number(symbol))}
   </span>
 );
