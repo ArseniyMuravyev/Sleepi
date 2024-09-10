@@ -136,17 +136,29 @@ export const recomendationsCards: RecomendationsCard[] = [
       },
     ],
   },
-  //{
-  //  title: "Recomendations.association",
-  //  src: "/images/association.svg",
-  //  content: "Association.main",
-  //  links: [
-  //    {
-  //      title: "realsimple.com",
-  //      link: "https://www.realsimple.com/three-things-in-bed-for-better-sleep-8584271",
-  //    },
-  //  ],
-  //},
+  {
+    title: "Recomendations.nap",
+    src: "/images/phases.svg",
+    content: "Nap.main",
+    links: [
+      {
+        title: "sleepfoundation.org",
+        link: "https://www.sleepfoundation.org/sleep-hygiene/coffee-nap",
+      },
+      {
+        title: "mayoclinic.org",
+        link: "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/napping/art-20048319",
+      },
+      {
+        title: "sleepfoundation.org",
+        link: "https://www.sleepfoundation.org/how-sleep-works/does-napping-impact-sleep-at-night",
+      },
+      {
+        title: "sleephealthfoundation.org",
+        link: "https://www.sleephealthfoundation.org.au/sleep-topics/napping",
+      },
+    ],
+  },
 ];
 
 export const glossaryWords: GlossaryWord[] = [
