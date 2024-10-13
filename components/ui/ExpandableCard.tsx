@@ -105,9 +105,6 @@ export function ExpandableCard() {
                     className="text-neutral-300 text-md md:text-lg lg:text-base h-full md:h-fit pb-4 flex flex-col items-start gap-4"
                   >
                     <p className="indent-3">{t(active.content)}</p>
-                    {active.post && (
-                      <p className="indent-3">{t(active.post)}</p>
-                    )}
                   </motion.div>
                 </div>
                 <div className="flex justify-center items-start p-4">
