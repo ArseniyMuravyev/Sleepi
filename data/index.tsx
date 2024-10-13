@@ -24,7 +24,6 @@ export const recomendationsCards: RecomendationsCard[] = [
     title: "Recomendations.phases",
     src: "/images/phases.svg",
     content: "Phases.main",
-    post: "Phases.post",
     links: [
       {
         title: "academic.oup.com",
@@ -37,6 +36,10 @@ export const recomendationsCards: RecomendationsCard[] = [
       {
         title: "health.com",
         link: "https://www.health.com/regular-sleep-schedule-lower-mortality-risk-8413749",
+      },
+      {
+        title: "verywellhealth.com",
+        link: "https://www.verywellhealth.com/sleep-cycle-iphone-app-3973921",
       },
     ],
   },
@@ -203,10 +206,5 @@ export const reading: Reading[] = [
     title: "Podcast.author",
     description: "Podcast.description",
     link: "Podcast.link",
-  },
-  {
-    title: "Site.author",
-    description: "Site.description",
-    link: "Site.link",
   },
 ];

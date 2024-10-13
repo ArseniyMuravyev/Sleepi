@@ -23,7 +23,7 @@ export default async function RootLayout({ children }: Readonly<Props>) {
 
   return (
     <html lang={locale} className="scroll-smooth">
-      <body className="p-0 m-0 box-border bg-[#20163b] text-white">
+      <body className="p-0 m-0 box-border bg-[#20163b] text-white flex flex-col items-center justify-center">
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           <ShootingStars />

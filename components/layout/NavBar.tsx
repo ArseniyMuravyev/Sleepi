@@ -18,7 +18,7 @@ export const Navbar: FC<Props> = ({ className }) => {
   return (
     <header
       className={cn(
-        "fixed top-6 left-2 right-2 inset-x-0 max-w-[96%] mx-auto z-50",
+        "fixed top-6 left-2 right-2 inset-x-0 max-w-[96%] md:max-w-6xl mx-auto z-50",
         className,
       )}
     >

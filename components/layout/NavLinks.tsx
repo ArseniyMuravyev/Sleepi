@@ -11,12 +11,8 @@ export const NavLinks: FC<Props> = ({ className }) => {
   const t = useTranslations("Layout");
   return (
     <nav
-      className={clsx(
-        "flex items-center text-lg capitalize font-bold gap-6",
-        className,
-      )}
+      className={clsx("flex items-center text-lg font-bold gap-6", className)}
     >
-      <Link href="#about">{t("about")}</Link>
       <Link href="#glossary">{t("glossary")}</Link>
       <Link href="#recomendations">{t("recomendations")}</Link>
       <Link href="#additional-reading">{t("additional")}</Link>
