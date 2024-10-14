@@ -42,7 +42,7 @@ export function ExpandableCard() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/20 h-full w-full "
+            className="fixed inset-0 bg-black/20 h-full w-full"
           />
         )}
       </AnimatePresence>
@@ -104,7 +104,7 @@ export function ExpandableCard() {
                     exit={{ opacity: 0 }}
                     className="text-neutral-300 text-md md:text-lg lg:text-base h-full md:h-fit pb-4 flex flex-col items-start gap-4"
                   >
-                    <p className="indent-3">{t(active.content)}</p>
+                    <p>{t(active.content)}</p>
                   </motion.div>
                 </div>
                 <div className="flex justify-center items-start p-4">
