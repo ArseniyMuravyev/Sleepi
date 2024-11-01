@@ -207,4 +207,9 @@ export const reading: Reading[] = [
     description: "Podcast.description",
     link: "Podcast.link",
   },
+  {
+    title: "Site.author",
+    description: "Site.description",
+    link: "Site.link",
+  },
 ];
